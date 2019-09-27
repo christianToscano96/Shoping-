@@ -1,0 +1,104 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "sku": 1111,
+        "title": "Chile",
+        "description": "La Roja",
+        "availableSizes": ["X", "L", "XL", "XXL"],
+        "price": 10,
+        "isFreeShipping": true
+      },
+  
+      {
+        "id": 2,
+        "sku": 3333,
+        "title": "Uruguay",
+        "description": "Charrua Danger ",
+        "availableSizes": ["X", "M", "L"],
+        "price": 14.9,
+        "isFreeShipping": true
+      },
+  
+      {
+        "id": 3,
+        "sku": 4444,
+        "title": "Alemania",
+        "description": "Campeona del Mundo 2014",
+        "availableSizes": ["X", "M", "L"],
+        "price": 14.9,
+        "isFreeShipping": true
+      },
+  
+      {
+        "id": 4,
+        "sku": 5555,
+        "title": "Francia",
+        "description": "Campeona del Mundo 2018",
+        "availableSizes": ["XL" , "X"],
+        "price": 25.9,
+        "isFreeShipping": false
+      },
+  
+      {
+        "id": 5,
+        "sku": 6666,
+        "title": "Brasil",
+        "description": "dadadededsa",
+        "availableSizes": ["X", "L", "XL"],
+        "price": 10.9,
+        "isFreeShipping": false
+      },
+  
+      {
+        "id": 6,
+        "sku": 7777,
+        "title": "España",
+        "description": "Campeona del Mundo 2010",
+        "availableSizes": ["XL", "XXL"],
+        "price": 49.9,
+        "isFreeShipping": false
+      },
+  
+      {
+        "id": 7,
+        "sku": 8888,
+        "title": "Estados Unidos",
+        "description": "1dasdasads",
+        "availableSizes": ["S"],
+        "style": "Preto com listras brancas",
+        "price": 22.5,
+        "isFreeShipping": true
+      },
+  
+      {
+        "id": 8,
+        "sku": 9999,
+        "title": "Italia",
+        "description": "asdsda",
+        "availableSizes": ["XL"],
+        "style": "Azul escuro",
+        "price": 18.7,
+        "isFreeShipping": false
+      },
+      {
+        "id": 9,
+        "sku": 1010,
+        "title": "Croacia",
+        "description": "dasdas",
+        "availableSizes": ["L", "XL"],
+        "price": 134.9,
+        "isFreeShipping": true
+      },
+      {
+        "id": 10,
+        "sku": 2222,
+        "title": " Argentina",
+        "description": "dasdasda",
+        "availableSizes": ["L", "XL"],
+        "price": 134.9,
+        "isFreeShipping": true
+      }
+    ]
+  }
+  

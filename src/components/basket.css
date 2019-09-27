@@ -1,0 +1,13 @@
+.basket{
+    transition: 0.5s;
+}
+.total{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-transform: uppercase;
+    background: rgb(253, 253, 253);
+    box-shadow: 0 -0px 15px rgba(0,0,0,.15);
+    padding: 1rem 4rem;
+    margin-top: 5rem;
+    border-radius: 30px;
+}

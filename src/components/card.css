@@ -1,0 +1,127 @@
+.product {
+    width: 50px;
+    height: 320px;
+    border-radius: 5px;
+}
+.product .imgBox {
+    height: 220px;
+    box-sizing: border-box;
+   
+}
+.product .imgBox img {
+    display: block;
+    width: 100%;
+    margin:  auto 0;/**/
+    border-radius: 5px;
+   
+}
+.details {
+    position: absolute;
+    width: 88%;
+    bottom: -130px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    transition: .5s;
+    border-radius: 10px;
+    
+}
+.product:hover .details {
+    transition: .5s;
+    bottom: 0px;
+    box-shadow: 0 -5px 15px rgba(0,0,0,.25);
+}
+.details h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    width: 74%;
+    margin-bottom: 1rem;
+}
+.details h2 span {
+    
+    font-size:11px;
+    color: rgb(179, 179, 179);
+    font-weight: normal;
+}
+
+.details .price {
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    font-weight: bold;
+    color: rgb(63, 192, 3);
+    font-size: 19px;
+}
+
+.details label {
+    opacity: 0;   
+    display: block;
+    margin-top: 2px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.product:hover label{
+    opacity: 1;
+    transition: .5s;
+}
+.details ul {
+    opacity: 0;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.product:hover:hover ul{
+    opacity: 1;
+    transition: .5s;
+}
+.details ul li {
+    list-style: none;
+    margin: 5px 5px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(179, 179, 179);
+}
+.details ul li:first-child {
+    margin-left: 0;
+}
+.details ul.colors li {
+    width: 16px;
+    height: 16px;
+}
+
+.details ul.colors li:nth-child(1){ 
+    background: rgb(43, 43, 43);
+}
+.details ul.colors li:nth-child(2){ 
+    background: rgb(26, 44, 206);
+}
+.details ul.colors li:nth-child(3){ 
+    background: rgb(116, 121, 168);
+}
+.details ul.colors li:nth-child(4){ 
+    background: rgb(227, 243, 1);
+}
+
+.details a {
+    opacity: 0;
+    display: block;
+    padding: 10px;
+    color: #fff;
+    margin: 15px 0 0 ;
+    background: rgb(0, 0, 0);  /* fallback for old browsers */
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+}
+.details a:hover{
+    background: rgb(29, 29, 29);
+
+}
+.product:hover a{
+    opacity: 1;
+    transition: 0.5s;
+}

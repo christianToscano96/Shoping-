@@ -5,9 +5,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.header{
+  background: url('./bg.jpg');
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    
+}
+h1{
+  color: white!important;
+}
+
+.banner{
+  height: 200px;
+  width: 100%;
+  background: url('./b3.jpg')   fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
 }
